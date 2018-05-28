@@ -17,6 +17,7 @@
 |     Make sure to pass relative path from the project root.
 */
 
+
 const { Ignitor } = require('@adonisjs/ignitor')
 
 new Ignitor(require('@adonisjs/fold'))
