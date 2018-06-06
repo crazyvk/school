@@ -20,3 +20,5 @@ const Route = use('Route');
 // Route.on('/', 'GameController.render');
 
 Route.get('/', 'GameController.render');
+Route.get('/user/', 'UserController.render');
+Route.get('/login/', 'UserController.login');
